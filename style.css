@@ -643,4 +643,51 @@ section.about-summery {
 .summery-right {
     width: 54%;
 }
+.about-summery p{
+    color: #353535;
+}
+/* ppeople */
+.about-people h2 {
+    text-align: center;
+    margin-top: 16vh;
+    color: #383838;
+}
+.ceo {
+    display: flex;
+    margin: 55px 175px 72px 192px;
+    justify-content: space-evenly;
+}
+.ceo-info {
+   
+    justify-content: center;
+    align-content: center;
+    
+}
+.ceo-info img {
+    height: 36vh;
+    margin-bottom: 10px;
+    border-radius: 100%;
+}
 
+.ceo-info h5 {
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.ceo-info p {
+    text-align: center;
+    
+}
+.ceo-about {
+    width: 47%;
+    padding-top: 40px;
+}
+.ceo-about p {
+    margin-bottom: 20px;
+    color: #424242;
+}
+
+.employee-img img {
+    height: 30vh;
+}
