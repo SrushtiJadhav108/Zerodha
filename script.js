@@ -6,3 +6,13 @@ faqItems.forEach(item => {
         item.classList.toggle("active");
     });
 } );
+
+const emp=document.querySelectorAll(".employee-img");
+emp.forEach(BIO=>
+{
+   const arrow=BIO.querySelector(".bio-arrow");
+   arrow.addEventListener("click",()=>
+{
+    BIO.classList.toggle("active");
+});
+});

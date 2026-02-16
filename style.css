@@ -621,6 +621,7 @@ section.FAQ {
     list-style: circle;
 }
 
+
 /* about us page CSS */
 .about-intro {
     padding-top: 20vh;
@@ -688,6 +689,61 @@ section.about-summery {
     color: #424242;
 }
 
+.employee-img
+{
+     text-align: center;
+}
+.employee-img h5{
+    margin-top: 2vh;
+    font-size: large;
+    color: #424242;
+}
+.employee-img p{
+    margin-bottom: 10px;
+}
 .employee-img img {
     height: 30vh;
+    border-radius: 100%;
+   
 }
+
+.board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: -8px;   
+    flex-wrap: row wrap;
+    flex-shrink: none;
+    margin-right: 140px;
+    margin-left: 224px;
+    align-items: center;
+    row-gap: 60px;
+}
+.bio {
+    overflow: hidden;
+    max-height: 0;
+    transition:max-height 0.4s ease;
+    padding: 0;
+    padding: 0;
+    color: #666;
+    text-align: left;
+}
+.bio-arrow i{
+    transition: transform 1s ease;
+    color: #666;
+ }
+.employee-img.active .bio{
+    margin-top: 10px;
+    max-height: 300px;
+    width: 18vw;
+    margin-left: 86px;
+}
+.employee-img.active .bio-arrow i
+{
+    transform: rotate(180deg);
+}
+.bio-arrow
+{
+    font-size: small;
+
+}
+
