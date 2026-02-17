@@ -1,0 +1,101 @@
+body {
+    font-family: Arial;
+    padding: 40px;
+}
+
+.tabs {
+    margin-bottom: 20px;
+}
+
+.tab {
+    padding: 10px 20px;
+    border: none;
+    background: #eee;
+    cursor: pointer;
+}
+
+.tab.active {
+    background: #387ed1;
+    color: white;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    padding: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Remove full borders */
+th, td {
+    padding: 18px;
+    text-align: left;
+    border: none;
+}
+
+/* Header style */
+th {
+    background-color: #fafafa;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Light row separators only */
+tr:not(:last-child) td {
+    border-bottom: 1px solid #eee;
+}
+
+/* Alternating row color */
+tbody tr:nth-child(even) {
+    background-color: #fcfcfc;
+}
+
+.tabs {
+    position: relative;
+    display: flex;
+    gap: 40px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.tab {
+    cursor: pointer;
+    padding: 5px 0;
+    font-weight: 500;
+}
+
+.indicator {
+    position: absolute;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    background-color: #387ed1;
+    transition: all 0.3s ease;
+}
+

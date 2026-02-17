@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pricing Tabs</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+<section class="pricing">
+
+    <!-- Tabs -->
+    <div class="tabs">
+        <button class="tab active" onclick="showTab('equity')">Equity</button>
+        <button class="tab" onclick="showTab('currency')">Currency</button>
+        <button class="tab" onclick="showTab('commodity')">Commodity</button>
+    </div>
+
+    <!-- Equity Table -->
+    <div id="equity" class="tab-content active">
+        <table>
+            <tr>
+                <th>Segment</th>
+                <th>Brokerage</th>
+            </tr>
+            <tr>
+                <td>Equity Delivery</td>
+                <td>Zero Brokerage</td>
+            </tr>
+            <tr>
+                <td>Equity Intraday</td>
+                <td>0.03% or ₹20</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Currency Table -->
+    <div id="currency" class="tab-content">
+        <table>
+            <tr>
+                <th>Segment</th>
+                <th>Brokerage</th>
+            </tr>
+            <tr>
+                <td>Currency Futures</td>
+                <td>₹20 per order</td>
+            </tr>
+            <tr>
+                <td>Currency Options</td>
+                <td>₹20 per order</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Commodity Table -->
+    <div id="commodity" class="tab-content">
+        <table>
+            <tr>
+                <th>Segment</th>
+                <th>Brokerage</th>
+            </tr>
+            <tr>
+                <td>Commodity Futures</td>
+                <td>0.03% or ₹20</td>
+            </tr>
+        </table>
+    </div>
+
+</section>
+<div class="tabs">
+    <div class="tab active">Equity</div>
+    <div class="tab">Currency</div>
+    <div class="tab">Commodity</div>
+
+    <div class="indicator"></div>
+</div>
+
+<script src="script1.js"></script>
+</body>
+</html>

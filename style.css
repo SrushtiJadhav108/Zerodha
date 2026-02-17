@@ -835,3 +835,33 @@ p.landing-subheading {
     font-size: 0.75rem;
    
 }
+
+/* pricing */
+section.charge-heading {
+    padding: 22vh 35vw;
+    /* align-content: center; */
+    text-align: center;
+}
+.charge-heading h1
+{
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.charge-heading p{
+    color: #666;
+}
+
+.price img {
+    height: 25vh;
+}
+section.tax {
+    display: flex;
+    padding: 3px 21vh;
+    justify-content: space-between;
+    gap: 52px;
+    text-align: center;
+    margin-bottom: 8vh;
+}
+.price {
+    width: 49%;
+}
