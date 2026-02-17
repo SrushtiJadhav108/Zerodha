@@ -747,3 +747,91 @@ section.about-summery {
 
 }
 
+/* products */
+section.product-sec-first {
+    padding-top: 20vh;
+    text-align: center;
+    padding-bottom: 10vh;
+    border-bottom: #d1d1d1 1px solid;
+    width: 66vw;
+    margin-left: 225px;
+}
+.product-sec-first h1{
+    color: #424242;
+    font-size: 1.75rem;
+    line-height: 1.25;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+p.sub-heading{
+    font-size: larger;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #424242;
+}
+
+.product-sec-first p{
+  
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    gap: 174px;
+    padding-top: 13vh;
+    margin-bottom: 4vh;
+    
+}
+.product-info {
+    width: 23%;
+    color: #444;
+    margin-top: 22px;
+    align-content: center;
+}
+.product-info a {
+    margin-right: 65px;
+}
+.product-info img {
+    margin-right: 21px;
+    height: 47px;
+}
+p.landing-subheading {
+    margin-top: 12vh;
+    text-align: center;
+    font-size: larger;
+    color: #424242;
+}
+.zerodha-universe {
+    margin-top: 8vh;
+    text-align: center;
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-bottom: 10vh;
+}
+.zerodha-universe h1{
+    color: #424242;
+    font-size: 1.75rem;
+    line-height: 1.25;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.universe {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0px;
+    row-gap: 88px;
+    margin-top: 9vh;
+    margin-bottom: 8vh;
+}
+.content img {
+    height: 9vh;
+    width: 12vw;
+}
+.content span {
+    color: #9b9b9b;
+    font-size: 0.75rem;
+   
+}
